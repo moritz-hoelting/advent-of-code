@@ -1,0 +1,11 @@
+part1: create-outdir
+    gfortran part-1.f90 -o ./out/part-1
+    ./out/part-1
+
+part2: create-outdir
+    gfortran part-2.f90 -o ./out/part-2
+    ./out/part-2
+
+[private]
+create-outdir:
+    @mkdir -p out
