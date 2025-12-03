@@ -1,0 +1,5 @@
+part1:
+    bash ./part-1.sh
+
+part2:
+    bash ./part-2.sh
