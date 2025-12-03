@@ -1,0 +1,11 @@
+part1: create-outdir
+    fpc -FEout ./part-1.pas
+    ./out/part-1
+
+part2: create-outdir
+    fpc -FEout ./part-2.pas
+    ./out/part-2
+
+[private]
+create-outdir:
+    @mkdir -p out
