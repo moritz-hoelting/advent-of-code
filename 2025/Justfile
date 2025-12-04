@@ -1,0 +1,5 @@
+
+day day:
+    @padded_day=$(printf "%02d" {{day}}); \
+    just -d day-$padded_day -f day-$padded_day/Justfile part1; \
+    just -d day-$padded_day -f day-$padded_day/Justfile part2

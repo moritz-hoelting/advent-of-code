@@ -1,0 +1,6 @@
+
+part1:
+    swipl -q -s day-04.pl -g "loadFile('input.txt'), countAccessible(C), format('Accessible positions: ~w~n', [C]), halt."
+
+part2:
+    swipl -q -s day-04.pl -g "loadFile('input.txt'), removeAccessible(C), format('Removed rolls: ~w~n', [C]), halt."
