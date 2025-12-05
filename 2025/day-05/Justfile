@@ -1,0 +1,9 @@
+
+part1:
+    mix run -e "Day05.run_part1()"
+
+part2:
+    mix run -e "Day05.run_part2()"
+
+test:
+    mix test
