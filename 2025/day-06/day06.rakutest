@@ -1,0 +1,20 @@
+use v6;
+use Test;
+use day06;
+
+my $input = "123 328  51 64 
+ 45 64  387 23 
+  6 98  215 314
+*   +   *   +  ";
+
+plan 2;
+
+my $res1 = part1($input);
+say $res1;
+ok $res1 == 4277556, "part1 test";
+
+my $res2 = part2($input);
+say $res2;
+ok $res2 == 3263827, "part2 test";
+
+done-testing;

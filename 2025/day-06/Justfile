@@ -1,0 +1,8 @@
+part1:
+    @raku -I. part-1.raku
+
+part2:
+    @raku -I. part-2.raku
+
+test:
+    @raku -I. day06.rakutest
