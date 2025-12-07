@@ -1,0 +1,8 @@
+part1:
+    @gleam run -m part_1
+
+part2:
+    @gleam run -m part_2
+
+test:
+    @gleam test
