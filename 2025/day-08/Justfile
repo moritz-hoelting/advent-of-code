@@ -1,0 +1,8 @@
+part1:
+    @deno run --allow-read=input.txt part-1.ts
+
+part2:
+    @deno run --allow-read=input.txt part-2.ts
+
+test:
+    @deno test
