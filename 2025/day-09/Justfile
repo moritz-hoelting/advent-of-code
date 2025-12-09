@@ -1,0 +1,8 @@
+part1:
+    cabal run part1 -v0
+
+part2:
+    cabal run part2 -v0
+
+test:
+    cabal test -v0
