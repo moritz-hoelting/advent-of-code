@@ -1,0 +1,8 @@
+part1:
+    dune exec part-1
+
+part2:
+    dune exec part-2
+
+test:
+    dune runtest
