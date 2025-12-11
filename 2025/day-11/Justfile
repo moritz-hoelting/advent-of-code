@@ -1,0 +1,8 @@
+part1:
+    python part_1.py
+
+part2:
+    python part_2.py
+
+test:
+    python test.py
