@@ -1,0 +1,8 @@
+part1:
+    cargo run
+
+part2:
+    @echo "There is no part 2 for the final day."
+
+test:
+    cargo test
